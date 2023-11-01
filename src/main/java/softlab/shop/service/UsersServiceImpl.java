@@ -13,7 +13,7 @@ public class UsersServiceImpl implements UsersService{
     private final UsersRepository usersRepositorye;
     @Override
     public List<Users>search(String email, String first_name, String last_name){
-        return null;
+        return  usersRepositorye.findAll();
 
     }
 
