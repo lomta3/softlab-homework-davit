@@ -38,7 +38,7 @@ import java.util.List;
  Company company = new Company();
  company.setId(id);
  company.setName(createCompany.name());
- company.setCountrid(createCompany.id());
+ company.setCountryid(createCompany.id());
  company.setParentid(createCompany.parentId());
  companyRepository.save(company);
  return company;

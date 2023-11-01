@@ -20,7 +20,7 @@ public class Company {
     private Integer parentid;
 
     @Column(name = "country_id")
-    private Integer countrid;
+    private Integer countryid;
 
     @Column (name = "name")
     private  String name;
